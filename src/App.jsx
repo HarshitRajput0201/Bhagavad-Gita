@@ -33,7 +33,7 @@ useEffect(() => {
   return (
     <div className='app'>
       <Routes>
-        <Route path="/Bhagavad-Gita-Frontend/" element={<HomePage />} />
+        <Route path="/Bhagavad-Gita/" element={<HomePage />} />
         <Route path="/chapter/:ch" element={<ChapterPage />} />
         <Route path="/chapter/:ch/slok/:sl" element={<SloksPage/>} />
       </Routes>

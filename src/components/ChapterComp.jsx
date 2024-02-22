@@ -20,7 +20,7 @@ const ChapterComp = () => {
           <p className='2xl:text-2xl xl:text-xl lg:text-lg md:text-md py-2 text-justify pb-8' >"hi" : {chapter.summary.hi}</p>
         </div>
         <div className='text-center'>
-          <NavLink to={'/Bhagavad-Gita-Frontend/'}>
+          <NavLink to={'/Bhagavad-Gita/'}>
             <button className='2xl:text-3xl xl:text-2xl lg:text-xl md:text-lg py-2 px-8 bg-white text-black rounded-full'>Home</button>
           </NavLink>
         </div>
